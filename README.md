@@ -11,7 +11,8 @@
 - coursera_specialization.csv
 - coursera_specializationcourses.csv
 
-### Output file: student_enrollment_{date}.csv
+### Output file: 
+student_enrollment_{date}.csv
 
 ### Description
 The script combines UM student term information and enrollments on Coursera for Michigan so that the combined data can be used for the visualizations on Tableau. The major data cleaning steps are described as follows:
