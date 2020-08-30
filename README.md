@@ -1,18 +1,18 @@
 # Coursera for Michigan - Data Cleaning Script
-# Author: Ming-Chen (Amy) Lu (mingchlu@umich.edu)
 
-# Date: June 23, 2020
+*Author: Ming-Chen (Amy) Lu (mingchlu@umich.edu)*
+*Date: June 23, 2020*
 
-# Input files: 
+## Input files: 
 - student_term_with_descriptions_hashed.csv
 - coursera_enrollment_hashed.csv
 - term.csv, coursera_course.csv
 - coursera_specialization.csv
 - coursera_specializationcourses.csv
 
-# Output file: student_enrollment_{date}.csv
+## Output file: student_enrollment_{date}.csv
 
-# Description
+## Description
 The script combines UM student term information and enrollments on Coursera for Michigan so that the combined data can be used for the visualizations on Tableau. The major data cleaning steps are described as follows:
 
 1. Students who weren't registered or withdraw were removed and the remainings were filtered by their lastet term.
